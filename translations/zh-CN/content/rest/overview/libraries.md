@@ -26,7 +26,7 @@ topics:
 
 {% warning %}
 
-警告：截至 2021 年 10 月下旬，官方 Octokit 库目前尚未维护。
+警告：截至 2021 年 10 月下旬，官方 Octokit 库目前尚未维护。 更多信息请参阅 [octokit.js 存储库中的此讨论](https://github.com/octokit/octokit.js/discussions/620)。
 
 {% endwarning %}
 
@@ -42,7 +42,7 @@ topics:
 
 | 库名称             | 仓库                                                                      |
 | --------------- | ----------------------------------------------------------------------- |
-| **github.dart** | [DirectMyFile/github.dart](https://github.com/DirectMyFile/github.dart) |
+| **github.dart** | [SpinlockLabs/github.dart](https://github.com/SpinlockLabs/github.dart) |
 
 ### Emacs Lisp
 

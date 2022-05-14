@@ -385,6 +385,7 @@ Action                        | Description
 | `gist.destroy` | A gist is deleted.
 | `gist.visibility_change` | The visibility of a gist is changed.
 
+{% ifversion ghec or ghes > 3.4 or ghae-issue-6724 %}
 ### `git` category actions
 
 | Action | Description
@@ -392,6 +393,7 @@ Action                        | Description
 | `git.clone` | A repository was cloned.
 | `git.fetch` | Changes were fetched from a repository.
 | `git.push`  | Changes were pushed to a repository.
+{% endif %}
 
 ### `hook` category actions
 
@@ -1179,7 +1181,7 @@ Action                        | Description
 | `restrict_notification_delivery.disable` | Email notification restrictions for an organization or enterprise were disabled. For more information, see "[Restricting email notifications for your organization](/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/restricting-email-notifications-for-your-organization)" and "[Restricting email notifications for your enterprise](/admin/policies/enforcing-policies-for-your-enterprise/restricting-email-notifications-for-your-enterprise)."
 {%- endif %}
 
-{%- ifversion ghec or ghes > 3.4 or ghae-issue-6271 %}
+{%- if custom-repository-roles %}
 ### `role` category actions
 
 | Action | Description

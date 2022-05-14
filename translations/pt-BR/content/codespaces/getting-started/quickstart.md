@@ -15,7 +15,7 @@ redirect_from:
 
 ## Introdução
 
-Neste guia, você irá criar um codespace a partir de um [repositório modelo](https://github.com/2percentsilk/haikus-for-codespaces) e explorar algumas das funcionalidades essenciais disponíveis para você dentro do codespace.
+Neste guia, você irá criar um codespace a partir de um [repositório modelo](https://github.com/github/haikus-for-codespaces) e explorar algumas das funcionalidades essenciais disponíveis para você dentro do codespace.
 
 Neste início rápido, você aprenderá a criar um codespace, conectar-se a uma porta encaminhada para ver seu aplicativo em execução, usar o controle de versões em um codespace e personalizar a sua configuração com extensões.
 
@@ -23,11 +23,11 @@ Para obter mais informações sobre exatamente como {% data variables.product.pr
 
 ## Criando seu codespace
 
-1. Acesse o r[repositório do modelo](https://github.com/2percentsilk/haikus-for-codespaces) e selecione **Usar este modelo**.
+1. Acesse o r[repositório do modelo](https://github.com/github/haikus-for-codespaces) e selecione **Usar este modelo**.
 
-2. Name your repository, select your preferred privacy setting, and click **Create repository from template**.
+2. Nomeie seu repositório, selecione sua configuração de privacidade preferida e clique em **Criar repositório a partir do modelo**.
 
-3. Acesse a página principal do repositório recém-criado. Under the repository name, use the **{% octicon "code" aria-label="The code icon" %} Code** drop-down menu, and in the **Codespaces** tab, click **Create codespace on main**.
+3. Acesse a página principal do repositório recém-criado. No nome do repositório, use o menu suspenso **Código de {% octicon "code" aria-label="The code icon" %}** e na guia **Codespaces**, clique em **Criar codespace no principal**.
 
   ![Botão de codespace novo](/assets/images/help/codespaces/new-codespace-button.png)
 
